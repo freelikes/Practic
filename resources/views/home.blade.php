@@ -18,6 +18,9 @@
                     You are logged in!
                 </div>
             </div>
+            {{$role->name}}
+            <br>
+            {{$permission->name}}
         </div>
     </div>
 </div>
